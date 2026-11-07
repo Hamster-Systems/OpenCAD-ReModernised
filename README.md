@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/branding/opencad-remodernised-logo.png" alt="OpenCAD ReModernised logo" width="420" />
+
 # OpenCAD ReModernised
 
 **Preserving OpenCAD. Building towards its future.**
@@ -17,6 +19,19 @@ An independent, community-driven continuation of the open-source Computer-Aided 
 **OpenCAD ReModernised** is a revival and modernisation effort based on [OpenCAD](https://github.com/opencad-community/OpenCAD), an open-source dispatch platform for roleplay communities. The goal is to preserve the existing project's foundations while working towards a more maintainable and accessible future.
 
 This repository is an **independent fork** maintained under [Hamster Systems](https://github.com/Hamster-Systems). It is not the official continuation of the original OpenCAD organisation and is not affiliated with its maintainers.
+
+## Project branding
+
+<div align="center">
+  <img src="assets/branding/opencad-remodernised-icon.png" alt="OpenCAD ReModernised simplified shield icon" width="125" />
+</div>
+
+The official assets for this independent revival are maintained in [`assets/branding/`](assets/branding/):
+
+- **[Full logo](assets/branding/opencad-remodernised-logo.png)** — for project documentation, repository presentation and wider branding.
+- **[Simplified shield icon](assets/branding/opencad-remodernised-icon.png)** — for compact placements such as app icons, avatars and future favicons.
+
+These assets identify the **OpenCAD ReModernised fork**, not the original OpenCAD project. Existing upstream artwork and original copyright notices remain part of the project's history.
 
 ## Project status
 
