@@ -1,3 +1,14 @@
+> [!CAUTION]
+> **PROJECT ABANDONED — NOT SAFE FOR PRODUCTION USE**
+>
+> **Hamster Systems has discontinued the OpenCAD ReModernised revival.** The decision follows a review of the legacy codebase that identified extensive maintenance issues and raised serious security concerns in core functionality, particularly login, registration, and password handling.
+>
+> The maintainer's security review reported potential exposure of passwords through authentication-related responses. **This specific concern has not been independently reproduced or confirmed in the public findings documented here**, so it should be treated as an unresolved, potentially serious risk rather than a fully verified vulnerability.
+>
+> **Do not deploy this code to a public server, use real credentials, or rely on it for operational data.** No security fixes, updates, or support are planned for this fork. The repository is retained solely for historical reference, attribution, and transparency.
+
+---
+
 <div align="center">
 
 <img src="assets/branding/opencad-remodernised-logo.png" alt="OpenCAD ReModernised logo" width="420" />
@@ -9,7 +20,7 @@
 An independent, community-driven continuation of the open-source Computer-Aided Dispatch (CAD) system for roleplay communities.
 
 [![License: GPL-3.0](https://img.shields.io/badge/license-GPL--3.0-blue)](LICENSE)
-[![Development status](https://img.shields.io/badge/status-early%20development-orange)](https://github.com/Hamster-Systems/OpenCAD-ReModernised)
+[![Development status](https://img.shields.io/badge/status-abandoned-red)](https://github.com/Hamster-Systems/OpenCAD-ReModernised)
 [![Maintained by Hamster Systems](https://img.shields.io/badge/maintained%20by-Hamster%20Systems-555)](https://github.com/Hamster-Systems)
 
 </div>
@@ -35,16 +46,16 @@ These assets identify the **OpenCAD ReModernised fork**, not the original OpenCA
 
 ## Project status
 
-**Early development / evaluation.** The initial focus is on project identity, documentation, attribution and assessing the existing codebase. No production-readiness or compatibility guarantees are made at this stage.
+**Abandoned / discontinued.** Development has ceased following a review of extensive legacy-code issues and serious unresolved security concerns. This repository is not recommended for deployment.
 
-Planned areas of work (not claims of completed functionality):
+The following were previously identified as areas requiring work; they are **not active commitments**:
 
 - Review the existing application and document its supported environments.
 - Address maintenance, compatibility and security issues.
 - Improve the user and administrator experience.
 - Make self-hosting and contributing clearer.
 
-A public roadmap will be established as the codebase is assessed.
+There is no active roadmap or planned release.
 
 ## Getting started
 
@@ -57,7 +68,7 @@ The original OpenCAD README listed the following requirements. **These are inher
 | PHP | 8.0 or later |
 | Database | MySQL 8.0+ or MariaDB 10.2+ |
 
-Before deploying, review the current source and dependencies, and test in an isolated environment. **Do not treat this early-development fork as production ready.** Updated installation and migration guidance will follow once verified.
+Before deploying, review the current source and dependencies, and test in an isolated environment. **Do not treat this early-development fork as production ready.** No further installation or migration guidance is planned.
 
 ## Contributing and feedback
 
