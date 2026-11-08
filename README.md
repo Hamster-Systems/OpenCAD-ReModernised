@@ -1,12 +1,13 @@
 > [!CAUTION]
-> **PROJECT ABANDONED — NOT SAFE FOR PRODUCTION USE**
+> **PROJECT ABANDONED — NOT RECOMMENDED FOR DEPLOYMENT**
 >
-> **Hamster Systems has discontinued the OpenCAD ReModernised revival.** The decision follows a review of the legacy codebase that identified extensive maintenance issues and raised serious security concerns in core functionality, particularly login, registration, and password handling.
+> **OpenCAD ReModernised was started by Hamster Systems to revive, maintain and modernise the original OpenCAD project while preserving its history and open-source foundations.**
 >
-> The maintainer's security review reported potential exposure of passwords through authentication-related responses. **This specific concern has not been independently reproduced or confirmed in the public findings documented here**, so it should be treated as an unresolved, potentially serious risk rather than a fully verified vulnerability.
+> After evaluating the inherited codebase, we concluded that the work required goes well beyond a normal modernisation effort. The amount of unfinished or problematic functionality, underlying architectural limitations and security concerns would require **a complete rebuild of core systems**, rather than a series of incremental fixes. Continuing this fork was therefore not a practical or responsible route to a maintainable CAD platform.
 >
-> **Do not deploy this code to a public server, use real credentials, or rely on it for operational data.** No security fixes, updates, or support are planned for this fork. The repository is retained solely for historical reference, attribution, and transparency.
-
+> **Security concerns are not limited to password exposure.** The review raised broader concerns about the design and handling of core functionality, including authentication, registration, credentials and the overall security foundations of the application. Possible disclosure of passwords through authentication-related responses was among the reported concerns, **not the sole reason for discontinuation**. These findings have not been published here as a fully reproduced, comprehensive security audit; individual suspected vulnerabilities should not be treated as independently confirmed.
+>
+> **Do not deploy this fork publicly, use real passwords or personal information, or depend on it for operational data.** It is not security-maintained or production-ready. No fixes, releases or support are planned. The repository is preserved for historical reference, attribution and transparency. This decision concerns the feasibility of this **revival effort**, not an assertion that every component of the original project has been independently proven insecure.
 ---
 
 <div align="center">
@@ -15,9 +16,9 @@
 
 # OpenCAD ReModernised
 
-**Preserving OpenCAD. Building towards its future.**
+**An attempted revival of the original OpenCAD project — now discontinued.**
 
-An independent, community-driven continuation of the open-source Computer-Aided Dispatch (CAD) system for roleplay communities.
+An independent, now-discontinued effort to modernise the open-source Computer-Aided Dispatch (CAD) system for roleplay communities.
 
 [![License: GPL-3.0](https://img.shields.io/badge/license-GPL--3.0-blue)](LICENSE)
 [![Development status](https://img.shields.io/badge/status-abandoned-red)](https://github.com/Hamster-Systems/OpenCAD-ReModernised)
@@ -27,9 +28,9 @@ An independent, community-driven continuation of the open-source Computer-Aided 
 
 ## About the project
 
-**OpenCAD ReModernised** is a revival and modernisation effort based on [OpenCAD](https://github.com/opencad-community/OpenCAD), an open-source dispatch platform for roleplay communities. The goal is to preserve the existing project's foundations while working towards a more maintainable and accessible future.
+**OpenCAD ReModernised** was a revival and modernisation effort based on [OpenCAD](https://github.com/opencad-community/OpenCAD), an open-source dispatch platform for roleplay communities. The original goal was to preserve the existing project's foundations while working towards a more maintainable and accessible future.
 
-This repository is an **independent fork** maintained under [Hamster Systems](https://github.com/Hamster-Systems). It is not the official continuation of the original OpenCAD organisation and is not affiliated with its maintainers.
+This repository is an **independent, discontinued fork** published under [Hamster Systems](https://github.com/Hamster-Systems). It is not the official continuation of the original OpenCAD organisation and is not affiliated with its maintainers.
 
 ## Project branding
 
@@ -46,16 +47,13 @@ These assets identify the **OpenCAD ReModernised fork**, not the original OpenCA
 
 ## Project status
 
-**Abandoned / discontinued.** Development has ceased following a review of extensive legacy-code issues and serious unresolved security concerns. This repository is not recommended for deployment.
+**Abandoned / discontinued.** This project began with the intention of updating the legacy application, improving compatibility and accessibility, and restoring it as a maintainable CAD system.
 
-The following were previously identified as areas requiring work; they are **not active commitments**:
+The assessment showed that a viable, secure modern version would require substantial replacement of the application’s underlying architecture and core systems—including authentication and registration—rather than ordinary maintenance. The scope became effectively a **full rebuild**, so work on this fork was stopped.
 
-- Review the existing application and document its supported environments.
-- Address maintenance, compatibility and security issues.
-- Improve the user and administrator experience.
-- Make self-hosting and contributing clearer.
+The reported password-exposure concern is only one part of the broader security concerns. The README is a project-status warning, **not a complete vulnerability disclosure or a claim that every reported risk has been independently reproduced**.
 
-There is no active roadmap or planned release.
+There is no active roadmap, supported release, or planned security maintenance.
 
 ## Getting started
 
@@ -68,13 +66,11 @@ The original OpenCAD README listed the following requirements. **These are inher
 | PHP | 8.0 or later |
 | Database | MySQL 8.0+ or MariaDB 10.2+ |
 
-Before deploying, review the current source and dependencies, and test in an isolated environment. **Do not treat this early-development fork as production ready.** No further installation or migration guidance is planned.
+These requirements are retained for historical context only. **Do not use them as deployment instructions.** No further installation or migration guidance is planned.
 
 ## Contributing and feedback
 
-Contributions, documentation fixes and constructive feedback are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) for the process. Please open pull requests against this repository rather than the archived upstream project.
-
-> Bug reporting through GitHub Issues is not currently enabled for this repository. Until it is enabled, pull requests can be used for proposed fixes and documentation changes.
+The project is no longer accepting development work as an active modernisation effort. [CONTRIBUTING.md](CONTRIBUTING.md) is retained for historical reference. Existing issues and pull requests document work identified before discontinuation.
 
 ## Credits and origins
 
